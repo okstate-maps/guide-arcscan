@@ -8,7 +8,8 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 - *[ArcScan]*
 - - Getting Started
 - - Georeferencing 
-- - ArcScan
+- - Vectorization
+- - Polygons
 - Conclusion
 - Further Reading/Resources
 
@@ -60,7 +61,7 @@ Note: For more information of georeferencing, visit (instert link here).
 
 ![Georeference](images/Georeference.PNG)
 
-#### ArcScan
+#### Vectorization
 
 1. Before vectorization can begin, make sure *ArcScan* is turned on. In the toolbar, click **Customize** then **Extensions**. Make sure there is a checkmark next to **ArcScan**.
 
@@ -192,6 +193,12 @@ Note: For more information of georeferencing, visit (instert link here).
 ![Save Edits](images/SaveEdits.PNG)
 
 11. To end an editing session, click **Stop Editing** under *Editor* in the *Editor* toolbar. Be sure to do this after you have generated the vector features. 
+
+#### Polygons
+Now that vectors have been created, you can create polygon features.
+
+1. Create a new **Feature Class** as previously mentioned, but be sure to set the *Type* as **Polygon Features**. Continue through the next few steps as listed above and click **Finish**. The new layer should appear in the *Table of Contents*.
+2.  
 
 ## Conclusion
 
