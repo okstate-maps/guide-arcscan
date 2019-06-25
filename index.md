@@ -10,6 +10,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 - - Georeferencing 
 - - Vectorization
 - - Polygons
+- - - Editing Polygons
 - Conclusion
 - Further Reading/Resources
 
@@ -224,6 +225,8 @@ Now that vectors have been created, you can create polygon features.
 8. A polygon should appear. 
 
 ![Poly](images/Poly.PNG)
+
+##### Editing Polygons
 
 ## Conclusion
 
