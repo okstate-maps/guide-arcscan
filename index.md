@@ -61,6 +61,7 @@ Note: For more information of georeferencing, visit (instert link here).
 ![Georeference](images/Georeference.PNG)
 
 #### ArcScan
+
 1. Before vectorization can begin, make sure *ArcScan* is turned on. In the toolbar, click **Customize** then **Extensions**. Make sure there is a checkmark next to **ArcScan**.
 
 ![Extensions](images/Extensions.PNG)
@@ -130,6 +131,10 @@ Note: For more information of georeferencing, visit (instert link here).
     - Adjusting the **Maximum Line Width** allows you to include or exclude certain features based on how wide the lines are. If you only want to include thin lines, decrease the maximum line width. If you would like to include more lines, increase the maximum line width.
     - **Compression Tolerance** allows you to adjust the angularity of the vectors by incorporating more or less vertices. The more vertices that are featured, the less angular the vectors will be. Reducing the number of vertices will likely result in a deviation from the original shape. 
     - By adjusting the **Smoothing Weight** you can generate features that are more or less smooth than the original features. Increasing the smoothing weight may result in a deviation from the original shape. 
+    - The **Gap Closure Tolerance** setting can be used to close unwanted gaps. Oftentimes, when a raster contains gaps, the previewed vector will also contain gaps. By increasing the tolerance, these gaps can be closed if desired. 
+    - To increase the accuracy of the gap closure tolerance, the **Fan Angle** setting can be adjusted. The fan angle determines where gaps are that can be closed, which is especially useful when the raster you are working with is curved. 
+    - Holes can be ignored by adjusting the **Hole** setting. If a small hole appears, you can choose to ignore it and the vector will cross over it instead of going around it. 
+    - **Resolve Corners** can be used to determine how angular or rounded the vector's corners are. 
     - For more details on the different vectorization settings, click **About vectorization** at the bottom of the *Vectorization Settings* window. 
 
 ![About](images/About.PNG)
@@ -143,6 +148,50 @@ Note: For more information of georeferencing, visit (instert link here).
 - 2. Open the **Raster Painting Toolbar**. 
 
 ![RasterPainting](images/RasterPainting.PNG)
+
+- 3. There are a variety of tools that can be used to edit the vectors before they are generated. 
+  - Erase
+  1. To erase a feature, simply click the eraser icon on the toolbar.
+  
+  ![Erase](images/Erase.PNG)
+  
+  2. Click and drag the mouse over the feature you wish to erase. 
+  
+  ![Erase](images/Erase.PNG)
+  
+  ![Erase2](images/Erase2.PNG)
+  
+  - Magic Erase
+  1. Click on the magic eraser icon
+  
+  ![Magic Erase](images/MagicErase.PNG]
+  
+  2. Make sure the feature you wish to erase is not connected to any other feature.
+  
+  ![Magic Erase2](images/MagicErase2.PNG)
+  
+  3. Simply click on the feature you wish to create. It should disappear entirely. 
+  
+  ![Magic Erase3](images/MagicErase3.PNG)
+  
+  - Brush 
+  1. Click on the brush icon.
+  
+  ![Brush](images/Brush.PNG)
+  
+  2. This tool can be used to add lines where they are needed. 
+  
+  ![Needs Line](images/NeedsLine.PNG)
+  
+  3. Simply click and drag the mouse where you would like to add a line or feature. 
+  
+  ![Add Line](images/AddLine.PNG)
+  
+10. Save edits often to ensure no progress is lost. Simply click **Save Edits** under *Editor* in the *Editor* toolbar.
+
+![Save Edits](images/SaveEdits.PNG)
+
+11. To end an editing session, click **Stop Editing** under *Editor* in the *Editor* toolbar. Be sure to do this after you have generated the vector features. 
 
 ## Conclusion
 
