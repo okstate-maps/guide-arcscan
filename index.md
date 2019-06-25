@@ -198,7 +198,32 @@ Note: For more information of georeferencing, visit (instert link here).
 Now that vectors have been created, you can create polygon features.
 
 1. Create a new **Feature Class** as previously mentioned, but be sure to set the *Type* as **Polygon Features**. Continue through the next few steps as listed above and click **Finish**. The new layer should appear in the *Table of Contents*.
-2.  
+2. Begin a new editor session and select the polygon layer. 
+3. Click the **Edit Tool**.
+
+![Edit Tool](images/EditTool.PNG)
+
+4. Right click anywhere in the toolbar and click on **Advanced Editing** to open the *Advanced Editing* toolbar.
+
+![Advanced Edit](images/AdvancedEdit.PNG)
+
+5. Select the vectors you would like to use to create a polygon. There are two ways to do this.
+- You can click and drag the mouse to select features.
+- OR you can select vectors by holding **CTRL and Shift** as you click on the lines you wish to include. This option allows you to be more specific. 
+
+![Select](images/Select.PNG) 
+
+6. On the *Advanced Editing* toolbar, select the **Construct Polygons** icon. 
+
+![Construct](images/Construct.PNG)
+
+7. A pop up will appear. Click **OK**. 
+
+![Done](images/Done.PNG)
+
+8. A polygon should appear. 
+
+![Poly](images/Poly.PNG)
 
 ## Conclusion
 
