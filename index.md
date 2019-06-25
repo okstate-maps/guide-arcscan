@@ -31,17 +31,17 @@ Note: **Topographic** is a good basemap choice.
 
 5. The map you wish to edit must consist of only two values/colors. (binary raster) (HELP WITH WORDING)
   
-  1. In the *Table of Contents* pane, right click the map you wish to edit and select **Properties**.
+  - 1. In the *Table of Contents* pane, right click the map you wish to edit and select **Properties**.
 
 ![Properties](images/Properties.PNG)
 
-  2. Go to the *Symbology* tab and select **Unique Values**. 
+  - 2. Go to the *Symbology* tab and select **Unique Values**. 
 
-  3. Remove all but two of the values by selecting them and clicking **Remove**. Only two values should remain. 
+  - 3. Remove all but two of the values by selecting them and clicking **Remove**. Only two values should remain. 
 
 ![Remove](images/Remove.PNG)
 
-  4. Click **Apply**.
+  - 4. Click **Apply**.
 
 ![Apply](images/Apply.PNG)
 
@@ -126,11 +126,11 @@ Note: For more information of georeferencing, visit (instert link here).
 
 ![Apply2](images/Apply2.PNG)
 
-- - Vectorization Settings Explained
+  - Vectorization Settings Explained
     - Adjusting the **Maximum Line Width** allows you to include or exclude certain features based on how wide the lines are. If you only want to include thin lines, decrease the maximum line width. If you would like to include more lines, increase the maximum line width.
-- - - **Compression Tolerance** allows you to adjust the angularity of the vectors by incorporating more or less vertices. The more vertices that are featured, the less angular the vectors will be. Reducing the number of vertices will likely result in a deviation from the original shape. 
-- - - By adjusting the **Smoothing Weight** you can generate features that are more or less smooth than the original features. Increasing the smoothing weight may result in a deviation from the original shape. 
-- - - For more details on the different vectorization settings, click **About vectorization** at the bottom of the *Vectorization Settings* window. 
+    - **Compression Tolerance** allows you to adjust the angularity of the vectors by incorporating more or less vertices. The more vertices that are featured, the less angular the vectors will be. Reducing the number of vertices will likely result in a deviation from the original shape. 
+    - By adjusting the **Smoothing Weight** you can generate features that are more or less smooth than the original features. Increasing the smoothing weight may result in a deviation from the original shape. 
+    - For more details on the different vectorization settings, click **About vectorization** at the bottom of the *Vectorization Settings* window. 
 
 ![About](images/About.PNG)
 
