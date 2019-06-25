@@ -34,13 +34,13 @@ Note: **Topographic** is a good basemap choice.
 
 ![Properties](images/Properties.PNG)
 
--2. Go to the *Symbology* tab and select **Unique Values**. 
+- 2. Go to the *Symbology* tab and select **Unique Values**. 
 
--3. Remove all but two of the values by selecting them and clicking **Remove**. Only two values should remain. 
+- 3. Remove all but two of the values by selecting them and clicking **Remove**. Only two values should remain. 
 
 ![Remove](images/Remove.PNG)
 
--4. Click **Apply**.
+- 4. Click **Apply**.
 
 ![Apply](images/Apply.PNG)
 
@@ -69,16 +69,17 @@ Note: For more information of georeferencing, visit (instert link here).
 ![Toolbar](images/Toolbar.PNG)
 
 3. Create a shape file. 
--1. In *Catalog*, right click the geodatabase file. Select **New** and **Feature Class**.
+
+- 1. In *Catalog*, right click the geodatabase file. Select **New** and **Feature Class**.
 
 ![Feature Class](images/FeatureClass.PNG)
 
--2. Name the file and make sure the *Type* is set to **Line Features**.
+- 2. Name the file and make sure the *Type* is set to **Line Features**.
 
 ![Line](images/Line.PNG)
 
--3. Select the desired coordinate system. Make sure it is the same as the basemap and other data being used. 
--4. Once done, select **Finish**. A new layer should appear in the *Table of Contents*. 
+- 3. Select the desired coordinate system. Make sure it is the same as the basemap and other data being used. 
+- 4. Once done, select **Finish**. A new layer should appear in the *Table of Contents*. 
 
 ![Layer](images/Layer.PNG)
 
