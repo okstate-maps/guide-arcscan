@@ -83,6 +83,21 @@ Note: For more information of georeferencing, visit (instert link here).
 
 ![Layer](images/Layer.PNG)
 
+4. Start and editing session. 
+
+- 1. Right click in the toolbar and click **Editor**. A new toolbar should appear. 
+
+![Editor](images/Editor.PNG)
+
+- 2. Under *Editor* click **Start Editing**.
+
+![Start Editing](images/StartEditing.PNG)
+
+- 3. Select the polyline layer you created and click **OK**. 
+
+![Start](images/Start.PNG)
+
+5. 
 
 ## Conclusion
 
