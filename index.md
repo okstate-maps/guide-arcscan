@@ -113,7 +113,7 @@ Note: For more information of georeferencing, visit (instert link here).
 
 8. If the preview is not satisfactory, the vectors can be edited.
 
-- 1. Under *Vectorization*, select **Vectorization Settings**.
+- 1. Under *Vectorization*, select **Vectorization Settings**. (HELP! LINK TO SETTING EXPLAINATION?)
 
 ![Settings](images/Settings.PNG)
 
@@ -123,7 +123,17 @@ Note: For more information of georeferencing, visit (instert link here).
 
 - 3. When the settings have been adjusted as desired, cick **Apply**.
 
-![Apply](images/Apply.PNG)
+![Apply2](images/Apply2.PNG)
+
+9. You may now generate the features, or continue editing with **Raster Cleanup**. 
+
+- 1. Under *Raster Cleanup*, click **Start Cleanup**. 
+
+![Cleanup](images/CleanUp.PNG)
+
+- 2. Open the **Raster Painting Toolbar**. 
+
+![RasterPainting](images/RasterPainting.PNG)
 
 ## Conclusion
 
