@@ -227,7 +227,50 @@ Now that vectors have been created, you can create polygon features.
 ![Poly](images/Poly.PNG)
 
 ##### Editing Polygons
-
+Polygons can be edited easily. 
+  - Edit Vertices
+  1. The vertices of a polygon can be edited to alter its shape. Select the line you would like to edit and click **Edit Vertices** in the *Editor* toolbar. 
+  
+  ![EV](images/EV.PNG)
+  
+  2. Green boxes will appear on the line. These are the vertices. To move them, simply click on them and drag to the desired location. 
+  
+  ![EV2](images/EV2.PNG)
+  
+  - Reshape Feature
+  
+ 1. Select a single editable line and click on the **Reshape Feature Tool** in the *Editor* toolbar. 
+ 
+ ![RS](images/RS.PNG)
+ 
+ 2. Click where you would like to start reshaping the line and add vertices to form the desired shape. 
+ 
+ ![RS2](images/RS2.PNG)
+ 
+ 3. Double click where you would like to end the new line and it will reshape itself.
+ 
+ ![RS3](images/RS3.PNG)
+  
+  - Cut Polygons
+  1. If a polygon is created where two polygons should have been, simply select the **Cut Polygons Tool** in the *Editor* toolbar. 
+  
+  ![Cut](images/Cut.PNG)
+  
+  2. Click where you would like to cut the polygon. To finsish, double click and the polygon should turn into two seperate polygons. 
+  
+  ![Divide](images/Divide.PNG)
+ 
+  - Split 
+  1. The **Split Tool** can be used to split a single editable line into two seperate lines. Select the split tool in the *Editor* toolbar.
+  
+  ![Split](images/Split.PNG)
+  
+  2. Click where you would like to split the single editable line. 
+  
+  ![Split 2](images/Split2.PNG)
+  
+  ![Split 3](images/Split3.PNG)
+  
 ## Conclusion
 
 ## Further Reading/Resources
