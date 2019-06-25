@@ -97,7 +97,33 @@ Note: For more information of georeferencing, visit (instert link here).
 
 ![Start](images/Start.PNG)
 
-5. 
+5. In the ArcScan toolbar under *Vectorization*, click **Show Preview**.
+
+![Preview](images/Preview.PNG)
+
+6. Compare the previewed vectors to the original raster data. 
+
+![Original](images/Original.PNG)
+
+![New](images/New.PNG)
+
+7. If you are happy with the results, under *Vectorization* select **Generate Features**.
+
+![Generate](images/Generate.PNG)
+
+8. If the preview is not satisfactory, the vectors can be edited.
+
+- 1. Under *Vectorization*, select **Vectorization Settings**.
+
+![Settings](images/Settings.PNG)
+
+- 2. A new window should appear. Here, the settings may be adjusted. 
+
+![Adjust](images/Adjust.PNG)
+
+- 3. When the settings have been adjusted as desired, cick **Apply**.
+
+![Apply](images/Apply.PNG)
 
 ## Conclusion
 
