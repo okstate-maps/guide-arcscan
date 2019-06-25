@@ -152,7 +152,8 @@ Note: For more information of georeferencing, visit (instert link here).
 ![RasterPainting](images/RasterPainting.PNG)
 
 - 3. There are a variety of tools that can be used to edit the vectors before they are generated. 
-  - Erase
+
+  - **Erase**
   1. To erase a feature, simply click the eraser icon on the toolbar.
   
   ![Erase](images/Erase.PNG)
@@ -163,7 +164,7 @@ Note: For more information of georeferencing, visit (instert link here).
   
   ![Erase2](images/Erase2.PNG)
   
-  - Magic Erase
+  - **Magic Erase**
   1. Click on the magic eraser icon
   
   ![Magic Erase](images/MagicErase.PNG]
@@ -176,7 +177,7 @@ Note: For more information of georeferencing, visit (instert link here).
   
   ![Magic Erase3](images/MagicErase3.PNG)
   
-  - Brush 
+  - **Brush** 
   1. Click on the brush icon.
   
   ![Brush](images/Brush.PNG)
@@ -228,7 +229,7 @@ Now that vectors have been created, you can create polygon features.
 
 ##### Editing Polygons
 Polygons can be edited easily. 
-  - Edit Vertices
+  - **Edit Vertices**
   1. The vertices of a polygon can be edited to alter its shape. Select the line you would like to edit and click **Edit Vertices** in the *Editor* toolbar. 
   
   ![EV](images/EV.PNG)
@@ -237,7 +238,7 @@ Polygons can be edited easily.
   
   ![EV2](images/EV2.PNG)
   
-  - Reshape Feature
+  - **Reshape Feature**
   
  1. Select a single editable line and click on the **Reshape Feature Tool** in the *Editor* toolbar. 
  
@@ -251,7 +252,7 @@ Polygons can be edited easily.
  
  ![RS3](images/RS3.PNG)
   
-  - Cut Polygons
+  - **Cut Polygons**
   1. If a polygon is created where two polygons should have been, simply select the **Cut Polygons Tool** in the *Editor* toolbar. 
   
   ![Cut](images/Cut.PNG)
@@ -260,7 +261,7 @@ Polygons can be edited easily.
   
   ![Divide](images/Divide.PNG)
  
-  - Split 
+  - **Split** 
   1. The **Split Tool** can be used to split a single editable line into two seperate lines. Select the split tool in the *Editor* toolbar.
   
   ![Split](images/Split.PNG)
