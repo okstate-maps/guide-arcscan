@@ -8,6 +8,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 - *[ArcScan]*
 - - Getting Started
 - - Georeferencing 
+- - ArcScan
 - Conclusion
 - Further Reading/Resources
 
@@ -28,7 +29,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 
 Note: **Topographic** is a good basemap choice.
 
-5. The map you wish to edit must consist of only two values/colors. (HELP WITH WORDING)
+5. The map you wish to edit must consist of only two values/colors. (binary raster) (HELP WITH WORDING)
 - 1. In the *Table of Contents* pane, right click the map you wish to edit and select **Properties**.
 
 ![Properties](images/Properties.PNG)
@@ -59,10 +60,27 @@ Note: For more information of georeferencing, visit (instert link here).
 ![Georeference](images/Georeference.PNG)
 
 #### ArcScan
-1. Before vectorization can begin, make sure *ArcScan* is turned on. Right click anywhere in the toolbar and make sure a checkmark is next to **ArcScan**. If there is not, click ArcScan and a new toolbar should appear. 
+1. Before vectorization can begin, make sure *ArcScan* is turned on. In the toolbar, click **Customize** then **Extensions**. Make sure there is a checkmark next to **ArcScan**.
+
+![Extensions](images/Extensions.PNG)
+
+2. Next, right click anywhere in the toolbar and make sure a checkmark is next to **ArcScan**. If there is not, click ArcScan and a new toolbar should appear. 
 
 ![Toolbar](images/Toolbar.PNG)
 
+3. Create a shape file. 
+-1. In *Catalog*, right click the geodatabase file. Select **New** and **Feature Class**.
+
+![Feature Class](images/FeatureClass.PNG)
+
+-2. Name the file and make sure the *Type* is set to **Line Features**.
+
+![Line](images/Line.PNG)
+
+-3. Select the desired coordinate system. Make sure it is the same as the basemap and other data being used. 
+-4. Once done, select **Finish**. A new layer should appear in the *Table of Contents*. 
+
+![Layer](images/Layer.PNG)
 
 
 ## Conclusion
