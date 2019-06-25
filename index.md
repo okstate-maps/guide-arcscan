@@ -30,6 +30,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 Note: **Topographic** is a good basemap choice.
 
 5. The map you wish to edit must consist of only two values/colors. (binary raster) (HELP WITH WORDING)
+  
   1. In the *Table of Contents* pane, right click the map you wish to edit and select **Properties**.
 
 ![Properties](images/Properties.PNG)
