@@ -15,6 +15,7 @@ Created by [OSU Maps and Spatial Data](https://info.library.okstate.edu/map-room
 - Further Reading/Resources
 
 ## Introduction
+ArcScan allows ArcMap users to turn images into vector-based feature layers through the process of vectorization.
 
 ## *[ArcScan]*
 
@@ -273,6 +274,7 @@ Polygons can be edited easily.
   ![Split 3](images/Split3.PNG)
   
 ## Conclusion
+Vectorization is made fairly simple by ArcScan. Scanned images, such as maps or photographs, can be transformed into vector features through this process in ArcMap.
 
 ## Further Reading/Resources
  **LINK TO GEOREFERENCING GUIDE**
